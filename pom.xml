@@ -121,7 +121,7 @@
 			    <inherited>false</inherited>
 			    <executions>
 				<execution>
-				    <id>build-info</id>
+				    <id>snapshots</id>
 				    <goals>
 					<goal>publish</goal>
 				    </goals>
