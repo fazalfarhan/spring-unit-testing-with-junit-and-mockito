@@ -60,6 +60,12 @@
     			<artifactId>artifactory-maven-plugin</artifactId>
     			<version>2.2.1</version>
 		</dependency>
+		<dependency>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-deploy-plugin</artifactId>
+ 			<version>3.0.0-M1</version>
+  			<type>maven-plugin</type>
+		</dependency>
 
  	</dependencies>
 
@@ -123,6 +129,18 @@
 				</execution>
 			    </executions>
 			</plugin>
+			<plugin>
+          			<groupId>org.apache.maven.plugins</groupId>
+          			<artifactId>maven-deploy-plugin</artifactId>
+          			<version>3.0.0-M1</version>
+					<distributionManagement>
+    						<snapshotRepository>
+        						<id>snapshots</id>
+        						<name>ip-172-31-51-149-snapshots</name>
+        						<url>http://ec2-23-22-248-6.compute-1.amazonaws.com/artifactory/libs-snapshot</url>
+    						</snapshotRepository>
+					</distributionManagement>
+        		</plugin>
 		</plugins>
 	</build>
 </project>
