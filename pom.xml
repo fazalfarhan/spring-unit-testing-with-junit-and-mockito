@@ -16,7 +16,7 @@
 	    </snapshotRepository>
 	</distributionManagement>
 
-	<name>unit-testing</name>
+	<name>unittesting</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
