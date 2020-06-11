@@ -3,8 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <username>${security.getCurrentUsername()}</username>
-      <password>${security.getEscapedEncryptedPassword()!"AP2nGjH4GuM5bTbQmTVUrhXo7kg"}</password>
+      <username>user</username>
+      <password>AP2nGjH4GuM5bTbQmTVUrhXo7kg</password>
       <id>central</id>
     </server>
     <server>
