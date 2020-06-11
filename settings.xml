@@ -4,12 +4,12 @@
   <servers>
     <server>
       <username>user</username>
-      <password>AP2nGjH4GuM5bTbQmTVUrhXo7kg</password>
+      <password>{fXhL1TyIu94H7mbhv88L07jAyWiOakScRXRQ0qF8zK0=}</password>
       <id>central</id>
     </server>
     <server>
       <username>user</username>
-      <password>AP2nGjH4GuM5bTbQmTVUrhXo7kg</password>
+      <password>{fXhL1TyIu94H7mbhv88L07jAyWiOakScRXRQ0qF8zK0=}</password>
       <id>snapshots</id>
     </server>
   </servers>
